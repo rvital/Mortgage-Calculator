@@ -1,0 +1,143 @@
+/*------------------------------
+=BASIC SETUP
+------------------------------*/
+body {overflow: scroll; 
+     margin: 0 auto;
+     padding: 0px;
+     width: 980px;
+     font: 13px/22px Helvetica, sans-serif;
+     background: #F0F0F0;
+     color:#000;
+}
+
+/*------------------------------
+=INTRODUCTION
+------------------------------*/
+
+#intro {
+      width:980px;
+      margin: 5px auto; 
+      padding: 0px;    
+}
+
+#introh2 {
+      padding: 0;
+      border:2px solid;
+	  color: #336699;
+      background: #99ff00;
+      font-style:italic;
+      text-shadow:0.1em 0.1em 0.05em #fff ;
+}
+
+/*------------------------------
+=CONTENT AREA AND SIDEBAR LAYOUT
+------------------------------*/
+#content {display: table;}
+#mainContent {
+      display: table-cell;
+      width: 680px;
+      padding-right: 2px;
+      border:4px groove #ccf;
+      height:480px;
+}
+h1{
+      text-align: center;
+}
+#inside{
+      border: double;
+      float: right;
+      display: inline-table;
+      margin: 0px auto; 
+      height: 339px; 
+      width: 210px;     
+ }
+#inside1{
+      border: double;
+      display: inline-table;
+      width: 210px;
+      clear: both;
+      padding: 0px;
+      height: 339px;
+      float: left;
+ }
+#inside2{
+      border: double;
+      float: left;
+      width: 180px;
+      display: inline-table;
+      margin-left: 25px; 
+           
+ }
+ #inside3{
+      display: inline-table;
+      width: 264px;
+      margin-left: 160px;
+ }
+
+#userID {
+      margin-left: 10px;
+}
+#client {
+      margin-left: 17px;
+}
+#propValue{
+      margin-left: 15px;
+}
+#downPay{
+      margin-left: 13px; 
+}  
+#mortYear{
+      margin-left: 73px;
+}
+#mortMonth{
+      margin-left: 65px;
+}
+#intRate{
+      margin-left: 26px;
+}
+#amortization{
+      margin-left: 29px;
+}
+#submit{
+      margin-left: 99px;
+}	
+/*------------------------------
+=SIDEBAR
+------------------------------*/
+aside {
+	 display: table-cell;
+     background:#ffffff;
+     width: 300px;
+     border:4px groove #ccf;
+     height:480px;
+     vertical-align: top;
+}
+
+aside section {
+	 margin: 2px 0 0 2px;}
+
+
+/*------------------------------
+           Footer
+------------------------------*/
+footer section{text-align:center;width:980px; }
+
+#lastUpdated {
+	 position: relative;
+	 margin-top: 6px; 
+	 padding: 6px 0px;    
+	 background: #ccc;
+     color:#000;
+}
+#lastUpdated p {
+	 padding: 0;
+	 color: #000;
+     background: #ccc;
+}
+
+/*------------------------------
+=showCase 
+------------------------------*/
+.showContent {display:inline;}
+.hideContent {display:none;}
+
