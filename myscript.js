@@ -1,5 +1,4 @@
 
-
 function validationForPayment() {  //function calls 4 different functions to validate for payment validation purposes
        var finalcheck="";//assign new variable for calling function purposes
        finalcheck = validateProp(finalcheck);//function call 
